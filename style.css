@@ -1,0 +1,34 @@
+body {
+    /* display: flex; */
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+    text-align: center;       
+    flex-direction: column;  
+    
+}
+
+h1{
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+}
+button{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15%;
+    margin: 1%;
+    box-shadow: none;
+}
+#start{
+    background-color: rgb(10, 147, 10);
+    color: white;
+}
+#stop{
+    background-color: red;
+    color: white;
+
+}
